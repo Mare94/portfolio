@@ -38,6 +38,11 @@ main {
     border-style: inset;
 }
 
+.portfolio-h1 {
+    margin-top: 5rem;
+    color: white;
+}
+
 .card-container {
     
     width: 100%;
