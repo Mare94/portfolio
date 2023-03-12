@@ -109,6 +109,11 @@ nav a:hover {
     opacity: 1;
 }
 
+.current-page a {
+        border-color: aqua;
+        text-decoration: underline;
+    }
+
 
 /*footer nav*/
 
@@ -202,10 +207,11 @@ footer {
 
     nav {
         all: unset;
-        grid-column: 3 / 4;
+        grid-column: 3 / 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        margin-right: 5rem;
     }
 
     nav a {
