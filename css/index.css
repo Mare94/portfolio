@@ -1,5 +1,6 @@
 @import url(nav.css);
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 html {
     margin: 0;
@@ -44,4 +45,58 @@ main {
 
 h2 {
     text-decoration: underline;
+}
+
+.card-container a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.card-container a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.card-one {
+    text-align: center;
+    margin-top: 1rem;
+    background-color: darkslategray;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+.card-two {
+    text-align: center;
+    margin-top: 5rem;
+    background-color: darkslategray;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+.card-three {
+    text-align: center;
+    margin-top: 5rem;
+    background-color: darkslategray;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.card-one a{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    
+}
+.card-two a{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    
+}
+.card-three a{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    
 }
