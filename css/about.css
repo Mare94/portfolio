@@ -39,6 +39,12 @@ main {
     border-radius: 10px;
 }
 
+.about-me a {
+    text-decoration: none;
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .image-id img {
     border-radius: 50%;
     height: 250px;
