@@ -109,6 +109,69 @@ nav a:hover {
     opacity: 1;
 }
 
+
+/*footer nav*/
+
+footer {
+    margin-top: auto;
+    background: #101010;
+    height: auto;
+    width: 100%;
+    padding-top: 5px;
+    color: white;
+} 
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    line-height: 1rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: auto;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.logo h3 {
+    font-weight: 200;
+}
+
+.logo h3 span {
+    font-weight: 600;
+}
+
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 150ms ease-in;
+}
+.socials a:hover {
+    color: aqua;
+}
+
+
 /*media query*/
 
 @media screen and (min-width: 905px) {
