@@ -3,7 +3,7 @@
 /* navbar css */
 
 header{
-    background: #101010;
+    background: #232323;
     text-align: center;
     position: fixed;
     z-index: 999;
@@ -98,7 +98,7 @@ nav a {
 }
 
 nav a:hover {
-    color: aqua;
+    color: gray;
 }
 
 .nav-toggle:checked ~ nav {
@@ -163,7 +163,7 @@ nav a:hover {
         content: '';
         display: block;
         height: 2px;
-        background: aqua;
+        background: white;
         position: absolute;
         top: -1em;
         left: 0;
