@@ -23,3 +23,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.img-size img {
+    height: 250px;
+    width: 450px;
+}
