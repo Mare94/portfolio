@@ -64,8 +64,9 @@ h2 {
 
 .card-container a {
     text-decoration: none;
-    color: white;
+    color: aqua;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .card-container a:hover{
