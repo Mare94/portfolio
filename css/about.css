@@ -35,3 +35,9 @@ main {
     padding: 20px;
     border-radius: 10px;
 }
+
+.image-id img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
