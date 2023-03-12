@@ -1,5 +1,5 @@
 @import url(nav.css);
-
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 html {
     margin: 0;
@@ -24,7 +24,24 @@ body {
     flex-direction: column;
 }
 
+main {
+    margin-top: 10rem;
+    margin: 10rem auto;
+}
+
 .img-size img {
     height: 250px;
     width: 450px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: inset;
+}
+
+.card-container h3, h2{
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
 }
