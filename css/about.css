@@ -22,3 +22,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+main {
+    margin: 15rem auto;
+}
+
+.about-me {
+    background-color: darkslategray;
+    max-width: 40rem;
+    color: white;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+}
